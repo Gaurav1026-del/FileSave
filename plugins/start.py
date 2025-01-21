@@ -135,9 +135,9 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="𝖢𝗁𝖺𝗇𝗇𝖾𝗅 1", url=client.invitelink),],[
+            InlineKeyboardButton(text="𝖢𝗁𝖺𝗇𝗇𝖾𝗅 1", url=client.invitelink),
             InlineKeyboardButton(text="𝖢𝗁𝖺𝗇𝗇𝖾𝗅 2", url=client.invitelink2),],[
-            InlineKeyboardButton(text="𝖢𝗁𝖺𝗇𝗇𝖾𝗅 3", url=client.invitelink3),],[
+            InlineKeyboardButton(text="𝖢𝗁𝖺𝗇𝗇𝖾𝗅 3", url=client.invitelink3),
             InlineKeyboardButton(text="𝖢𝗁𝖺𝗇𝗇𝖾𝗅 4", url=client.invitelink4),
         ]
     ]
