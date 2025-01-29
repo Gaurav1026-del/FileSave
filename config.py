@@ -45,7 +45,7 @@ except ValueError:
 
 
 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>\n• 𝖡𝗒 <a href='https://t.me/zoroflix'>𝖹𝗈𝗋𝗈𝖿𝗅𝗂𝗑</a></b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>\n• ʙʏ <a href='https://t.me/zoroflix'>ᴢᴏʀᴏғʟɪx</a></b>")
 
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
