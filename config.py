@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7814681046:AAH_lB7R9m-EORmkxlNTB4cN-KpKJ7OtrAA")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8114127103:AAHqeRVHFEaB7nLFvjT-AmL6fhgG4nfDx_A")
 API_ID = int(os.environ.get("API_ID", "25195869"))
 API_HASH = os.environ.get("API_HASH", "711b4c998351c6969aff8f54a35327fa")
 
@@ -17,7 +17,7 @@ DB_NAME = os.environ.get("DB_NAME", "hunt")
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "1002417164553"))
 
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "1002030815946"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "1002073897814"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "1001629953995"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "1002290991528"))
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "1002324048110"))
